@@ -17,11 +17,11 @@
 9. Открыть любой txt файл
    `cat > txt1.txt`
 10. - написать туда что-нибудь, любой текст. ===
-      `в траве`
-      `сидел`
-      `кузнечик`
-      `совсем`
-      `как огуречик`
+         `в траве`
+         `сидел`
+         `кузнечик`
+         `совсем`
+         `как огуречик`
 
 11. - сохранить и выйти. ===
       `CTRL+C`
@@ -55,12 +55,12 @@
    `curl "http://162.55.220.72:5005/terminal-hw-request"`
 
 ответ сервера
-{"Intro":"Hello!! This is your the first response from server","Tasks":{"Task*1":"Send the next URL in terminal: set * your\_ String","result":["Your_String","Your_number"]}}
+      {"Intro":"Hello!! This is your the first response from server","Tasks":{"Task*1":"Send the next URL in terminal: set * your\_ String","result":["Your_String","Your_number"]}}
 
 `curl "http://162.55.220.72:5005/get_method?name=Anna&age=28"`
 
 ответ сервера
-["Anna","28"]
+      ["Anna","28"]
 
 ---
 
@@ -69,15 +69,15 @@
 -создать файл
 myscript.sh
 
-> \#1/bin/bash
+      > \#1/bin/bash
 
-      cd fff
-      mkdir f1 f2 f3
-      cd f1
-      touch txt1.txt txt2.txt txt3.txt j1.json j2.json
-      mkdir ff1 ff2 ff3
-      ls -la
-      mv {txt1.txt,txt2.txt} ../f2/cd
+            cd fff
+            mkdir f1 f2 f3
+            cd f1
+            touch txt1.txt txt2.txt txt3.txt j1.json j2.json
+            mkdir ff1 ff2 ff3
+            ls -la
+            mv {txt1.txt,txt2.txt} ../f2/cd
 
 -сделать файл исполняемым
 `chmod +x ./myscript.sh`
